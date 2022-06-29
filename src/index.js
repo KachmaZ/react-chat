@@ -24,7 +24,7 @@ firebase.initializeApp({
   measurementId: "G-C4LB6MY9YN"
 });
 
-const Context = createContext(null)
+export const Context = createContext(null)
 
 
 const auth = firebase.auth()
